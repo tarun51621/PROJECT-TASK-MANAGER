@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "81dcf08a-720b-491b-a177-9c59b8841ad0",
+      "name": "Avery Admin",
+      "email": "admin@example.com",
+      "passwordHash": "1a60045c4c765494f182ff9017325742:cc87e0f02d4c9643329e174103601f2ab1486f6b5a9369652f8d05d25026882badaf8cdaab5a4800f215f135de523cb89661be520c73cd44967e05f42004cb01",
+      "createdAt": "2026-05-02T08:05:30.843Z"
+    },
+    {
+      "id": "22269405-8296-4d95-b1d9-f5976e94d3b2",
+      "name": "Mira Member",
+      "email": "member@example.com",
+      "passwordHash": "3ed325ba5de1a0b942d56e49a473f74a:56f56d7468d755ef311c633781a9f3ce762dfc8ad9e0e24cd80ea918c44ac992dfdec8bd3d300b7d76333ba20e8ee7c7e4b46053f48d479f7c38d5fc02182db8",
+      "createdAt": "2026-05-02T08:05:30.843Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "8a9fb315-b606-4aea-b3ab-1ebabf5801ca",
+      "name": "Website Relaunch",
+      "description": "Coordinate design, copy, and engineering work for the new launch.",
+      "ownerId": "81dcf08a-720b-491b-a177-9c59b8841ad0",
+      "createdAt": "2026-05-02T08:05:30.843Z"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "9c622f5b-ea47-4c57-94d0-63ee89fecc05",
+      "projectId": "8a9fb315-b606-4aea-b3ab-1ebabf5801ca",
+      "userId": "81dcf08a-720b-491b-a177-9c59b8841ad0",
+      "role": "Admin",
+      "createdAt": "2026-05-02T08:05:30.843Z"
+    },
+    {
+      "id": "58afe4d0-9930-4272-8093-ca8d2fc25047",
+      "projectId": "8a9fb315-b606-4aea-b3ab-1ebabf5801ca",
+      "userId": "22269405-8296-4d95-b1d9-f5976e94d3b2",
+      "role": "Member",
+      "createdAt": "2026-05-02T08:05:30.843Z"
+    }
+  ],
+  "tasks": [],
+  "sessions": [
+    {
+      "token": "62f4c0ed-6416-4eec-aef3-ade5805322e8",
+      "userId": "81dcf08a-720b-491b-a177-9c59b8841ad0",
+      "createdAt": "2026-05-02T08:06:12.135Z",
+      "expiresAt": "2026-05-09T08:06:12.136Z"
+    }
+  ]
+}
