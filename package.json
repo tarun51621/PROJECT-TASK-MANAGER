@@ -1,0 +1,18 @@
+{
+  "name": "project-role-task-tracker",
+  "version": "1.0.0",
+  "description": "Project, team, and task tracking app with REST APIs, validation, relationships, and role-based access control.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "project-management",
+    "tasks",
+    "rbac",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "MIT"
+}
